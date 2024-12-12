@@ -13,7 +13,7 @@ library(dplyr)
 library(ggrepel)
 library(reshape2)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS/manu/scripts")
+setwd("./data/scripts")
 
 seur <- readRDS(file="scRNA_str.rds")
 dim(seur) # 33551 15372
@@ -78,7 +78,7 @@ dev.off()
 #########################################
 ## load cell type composition per patient
 
-df <- read.csv("updated_SS_meta.csv")
+df <- read.csv("./data/updated_SS_meta.csv")
 df$patient_status <- paste(df$patient, df$status, sep="_")
 
 # keep samples that are fibrotic and imm
@@ -149,18 +149,16 @@ library(ggrepel)
 library(reshape2)
 library(psych)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-
-fib_score <- readRDS("fib_score.rds")
+fib_score <- readRDS("./data/fib_score.rds")
 rownames(fib_score) <- fib_score$sampleid
 
-new_names <- read.delim("Anno_names_match.txt")
+new_names <- read.delim("./data/Anno_names_match.txt")
 dim(new_names) # 77 2
 
 # readin different compartments
-seur1 <- readRDS(file="scRNA_str.rds") # stromal
-seur2 <- readRDS(file="scRNA_imm.rds") # immune
-seur3 <- readRDS(file="scRNA_epi.rds") # epithelial
+seur1 <- readRDS(file="./data/scRNA_str.rds") # stromal
+seur2 <- readRDS(file="./data/scRNA_imm.rds") # immune
+seur3 <- readRDS(file="./data/scRNA_epi.rds") # epithelial
 
 # combine all comparts togetehr
 seur <- merge(seur1, seur2)
@@ -242,12 +240,10 @@ library("viridis")
 library(pheatmap)
 library(ggrepel)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-
-fib_score <- readRDS("fib_score.rds")
+fib_score <- readRDS("./data/fib_score.rds")
 rownames(fib_score) <- fib_score$sampleid
 
-allcor <- readRDS("all_cor.scoresx.rds")
+allcor <- readRDS("./data/all_cor.scoresx.rds")
 rnk <- rowSums(allcor$q < 0.05, na.rm=T)
 df <- data.frame(cy=names(rnk), rnk=rnk)
 dim(df) #60  2
