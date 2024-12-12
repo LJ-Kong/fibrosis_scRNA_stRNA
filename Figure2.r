@@ -14,8 +14,6 @@ library("RColorBrewer")
 library(cowplot)
 library(scales)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-source("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/analysis/map_colors_lvls.r")
 source("dirichlet_functions.r")
 
 # Load metadata
@@ -124,8 +122,6 @@ library(cowplot)
 library(scales)
 library(brms)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-source("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/analysis/map_colors_lvls.r")
 source("dirichlet_with_random.r")
 source("dirichlet_functions.r")
 
@@ -249,7 +245,6 @@ dev.off()
 ############################################################
 # Please run DE_run.r to get the DE results
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
 
 # readin updated annotation for cell types
 new_names <- read.delim("Anno_names_match.txt")
@@ -327,10 +322,9 @@ dev.off()
 library(ggplot2)
 library(cowplot)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
 
 # load DE result 
-de.cmb <- readRDS("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS/de-results.2024/de.cmb.rds")
+de.cmb <- readRDS("./data/de.cmb.rds")
 dim(de.cmb) #606557     21
 
 scatter.coef <- function (cmp, xp, yp) {
@@ -400,12 +394,10 @@ library(pheatmap)
 
 
 ## Download pathways from: https://www.gsea-msigdb.org/gsea/msigdb/human/collections.jsp#C2
-pty <- "D:/Downloads/c2.cp.kegg_legacy.v2023.2.Hs.symbols.gmt"
-
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
+pty <- "./data/c2.cp.kegg_legacy.v2023.2.Hs.symbols.gmt"
 
 # load DE result 
-de.cmb <- readRDS("de.cmb.rds")
+de.cmb <- readRDS("./data/de.cmb.rds")
 
 out_col <- c("TypeH", "TypeN")
 cmb.fgseaRes <- c()
