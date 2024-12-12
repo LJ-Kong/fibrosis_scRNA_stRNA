@@ -1,3 +1,5 @@
+# for paired tests
+
 library(lmerTest)
 library(MASS)
 library(egg)
