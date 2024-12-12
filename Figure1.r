@@ -13,7 +13,7 @@ library(labdsv)
 
 
 # Load metadata
-df <- read.csv("updated_SS_meta.csv")
+df <- read.csv("./data/updated_SS_meta.csv")
 dim(df) #352697     42
 length(unique(df$annotation2)) # 77 
 
@@ -84,7 +84,7 @@ library(labdsv)
 
 
 # Load metadata
-df <- read.csv("updated_SS_meta.csv")
+df <- read.csv("./data/updated_SS_meta.csv")
 dim(df) #352697     42
 length(unique(df$annotation2)) # 77
 
@@ -99,7 +99,6 @@ dim(df2) #102   6
 # remove samples that are not paired
 paired_samples <- df2$sampleid[df2$paired=="Y"]
 df <- df[df$sampleid%in%paired_samples,]
-dim(df) # 282438     41    #289325     41    #277012     42
 df$patient_status <- paste(df$patient, df$status, sep="_")
 
 propmat1 <- dcast(df, annotation2 ~ sampleid)
@@ -194,7 +193,7 @@ library(scales)
 source("dirichlet_functions.r")
 
 # Load metadata
-meta <- read.csv("updated_SS_meta.csv")
+meta <- read.csv("./data/updated_SS_meta.csv")
 dim(meta) #352697     42
 
 # Exclude inflamed cells
