@@ -12,9 +12,6 @@ library(reshape2)
 library(labdsv)
 
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-source("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/analysis/map_colors_lvls.r")
-
 # Load metadata
 df <- read.csv("updated_SS_meta.csv")
 dim(df) #352697     42
@@ -85,9 +82,6 @@ library(ggrepel)
 library(reshape2)
 library(labdsv)
 
-
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-source("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/analysis/map_colors_lvls.r")
 
 # Load metadata
 df <- read.csv("updated_SS_meta.csv")
@@ -197,8 +191,6 @@ library("RColorBrewer")
 library(cowplot)
 library(scales)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-source("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/analysis/map_colors_lvls.r")
 source("dirichlet_functions.r")
 
 # Load metadata
