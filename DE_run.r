@@ -13,7 +13,6 @@ library(lmerTest)
 library(MAST)
 library(data.table)
 
-setwd("/mnt/e/Shared/lk/rerun/SS")
 source("mast.de.functions.r")
 
 ########################################################
@@ -29,9 +28,9 @@ de.dir <- "de-results"
 prefilter.P.thresh <- 0.05
 
 #################################################################################
-## Stromal ~5h
+## Stromal
 
-seur <- readRDS(file="scRNA_str.rds")
+seur <- readRDS(file="./data/scRNA_str.rds")
 
 # Exclude inflamed cells
 Idents(seur) <- seur@meta.data$status
@@ -50,9 +49,9 @@ for (celltype in unique(seur@meta.data$annotation2)) {
 }
 
 #################################################################################
-## Epithelial ~12h
+## Epithelial
 
-seur <- readRDS(file="scRNA_epi.rds")
+seur <- readRDS(file="./data/scRNA_epi.rds")
 
 # Exclude inflamed cells
 Idents(seur) <- seur@meta.data$status
@@ -72,9 +71,9 @@ for (celltype in unique(seur@meta.data$annotation2)) {
 
 
 #################################################################################
-## Immune ~12h
+## Immune
 
-seur <- readRDS(file="scRNA_imm.rds")
+seur <- readRDS(file="./data/scRNA_imm.rds")
 
 # Exclude inflamed cells
 Idents(seur) <- seur@meta.data$status
@@ -98,7 +97,7 @@ for (celltype in unique(seur@meta.data$annotation2)) {
 
 setwd(de.dir)
 de.files <- list.files(pattern="*.csv")
-length(de.files) # 65
+length(de.files) 
 
 de.cmb <- list()
 for (fname in de.files) {
