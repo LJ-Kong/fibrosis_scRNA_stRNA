@@ -1,1 +1,1 @@
-# fibrosis_scRNA_stRNA
+This repository includes main code to analyse the single cell data and spatial data from 'Single-cell and spatial transcriptomics of stricturing Crohn’s disease uncovers a fibrosis-associated network'.
