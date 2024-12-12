@@ -1,4 +1,4 @@
-########## MAST DE functions 
+# MAST DE functions 
 
 groupify <- function(f, vars) {
 	df <- model.frame(f, data=vars)
