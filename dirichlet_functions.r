@@ -1,8 +1,3 @@
-# Use dirichlet-multinomial regression to find significant changes in cell frequencies during disease
-# Fuctions were modified based on Smillie C.S. scripts at: 
-# https://github.com/cssmillie/ulcerative_colitis/blob/master/analysis.r
-# ---------------------------------------------------------------------------------------------------
-
 library(lmerTest)
 library(MASS)
 library(egg)
