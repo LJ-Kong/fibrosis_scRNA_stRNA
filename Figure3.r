@@ -13,9 +13,7 @@ library(dplyr)
 library(ggrepel)
 library(reshape2)
 
-setwd("./data/scripts")
-
-seur <- readRDS(file="scRNA_str.rds")
+seur <- readRDS(file="./data/scRNA_str.rds")
 dim(seur) # 33551 15372
 
 # Exclude inflamed cells
@@ -256,7 +254,7 @@ dim(df2) #68  2
 df <- merge(df, df2, by="cy", all.x=T)
 dim(df)  #60  3
 
-meta <- read.csv("updated_SS_meta.csv")
+meta <- read.csv("./data/updated_SS_meta.csv")
 dim(meta) #352697     42
 meta <- meta[grep("^Contaminant", meta$annotation2, invert=T),] # exlude "Contaminant"
 dim(meta) # 347017     42
@@ -329,13 +327,11 @@ library("viridis")
 library(pheatmap)
 library(ggrepel)
 
-setwd("D:/Documents/TUT work/USB backup/MGH/Nicole_SCRNA-seq/2020/2022rerun/SS")
-
-fib_score <- readRDS("fib_score.rds")
+fib_score <- readRDS("./data/fib_score.rds")
 rownames(fib_score) <- fib_score$sampleid
 
-allcor <- readRDS("all_cor.scoresx.rds")
-de.cmb <- readRDS("fib_test_de.cmb.rds")
+allcor <- readRDS("./data/all_cor.scoresx.rds")
+de.cmb <- readRDS("./data/fib_test_de.cmb.rds")
 de.cmb.o <- readRDS("de.cmb.rds")
 
 cy_k <- "Plasma cells-IgG"
@@ -399,7 +395,7 @@ dev.off()
 #############################################
 ## plot scatter
 
-seur <- readRDS(file="ss_imm.rds")
+seur <- readRDS(file="./data/ss_imm.rds")
 dim(seur) # 33551 156147
 
 # Exclude UC patient 174879
