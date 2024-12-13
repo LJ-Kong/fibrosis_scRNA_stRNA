@@ -93,7 +93,7 @@ dim(df) #347017     42
 length(unique(df$annotation2)) # 68 
 
 ##### keep patients that have all epi and imu
-df2 <- read.csv("combine_samples_by_fraction_manual4.csv")
+df2 <- read.csv("./data/combine_samples_by_fraction_manual.csv")
 dim(df2) #102   6
 
 # remove samples that are not paired
