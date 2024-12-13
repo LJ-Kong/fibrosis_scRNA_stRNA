@@ -17,7 +17,7 @@ library(scales)
 source("dirichlet_functions.r")
 
 # Load metadata
-meta <- read.csv("updated_SS_meta.csv")
+meta <- read.csv("./data/updated_SS_meta.csv")
 dim(meta) #352697     42
 
 # Exclude inflamed cells
@@ -126,10 +126,10 @@ source("dirichlet_with_random.r")
 source("dirichlet_functions.r")
 
 # Load metadata
-meta <- read.csv("updated_SS_meta.csv")
+meta <- read.csv("./data/updated_SS_meta.csv")
 
 # get pair info
-df2 <- read.csv("combine_samples_by_fraction_manual3.csv")
+df2 <- read.csv("./data/combine_samples_by_fraction_manual.csv")
 dim(df2) # 102   9
 
 # only keep the paired epi/imu samples
@@ -247,9 +247,9 @@ dev.off()
 
 
 # readin updated annotation for cell types
-new_names <- read.delim("Anno_names_match.txt")
+new_names <- read.delim("./data/Anno_names_match.txt")
 # load DE result 
-de.cmb <- readRDS("de.cmb.rds")
+de.cmb <- readRDS("./data/de.cmb.rds")
 # subset to significant ones
 de.cmb.sub <- de.cmb[de.cmb$FDR.D<0.05,] 
 
