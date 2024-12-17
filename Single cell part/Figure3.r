@@ -28,7 +28,6 @@ seur <- subset(seur, idents="imu")
 Idents(seur) <- seur@meta.data$annotation2
 seur <- subset(seur, idents=c("CXCL1-hi fibroblasts"))
 
-
 de.cmb <- readRDS("de.cmb.rds")
 de.cmb <- de.cmb[de.cmb$X=="Stromal.CXCL1-hi fibroblasts" & de.cmb$contrast=="TypeN",]
 de.cmb.core <- de.cmb[de.cmb$FDR.D<0.05 & de.cmb$coefD>0,]
