@@ -1,3 +1,4 @@
+##################################################
 # MAST DE functions 
 
 groupify <- function(f, vars) {
