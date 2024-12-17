@@ -1,0 +1,67 @@
+Arterial endothelium
+B cells
+CCR7hi CD4 T cells
+CD4 T cells
+CD63+CD81+ macrophage
+CD69+ CD4 T cells
+CD8 intraepithelial cells
+CXCR6-hi CD4 T cells
+Collagen-hi tissue fibroblast
+Colonocytes-CAECAM-hi
+Colonocytes-LGALS4-hi
+Contractile pericytes
+Cycling B cells
+Cycling T cells
+Cycling endothelium
+Cycling myeloid
+Dendritic cell - CCR7-hi
+Dendritic cell - cDC1
+Dendritic cell - cDC2
+Enteric glia
+Enterocyte-ANPEP-hi
+Enterocyte-FABP-hi
+Enterocyte-mito-hi
+Enterocytes-COX-hi
+Enterocytes-FTL-hi
+Enterocytes-FTL-hi2
+Enterocytes-MT-hi
+Enteroendocrine cells
+Follicular helper T cells
+GZMB-hi B cell
+GZMK-hi CD8 T cells
+Goblet cells
+Goblet cells-DEF-hi
+ILCs
+Inflammatory fibroblasts
+Intraepithelial Tgd
+LP-associated NK-Tgd
+Lymphatic endothelium
+Lyve1 macrophage
+M2-like macrophage
+M2-like macrophage-A2M-hi
+Macrophage-like neutrophils
+Mast cells
+Mito-hi endothelium
+Monocyte
+Monocyte-CCL3-4-hi
+Monocyte-FPR1-hi
+Monocyte-HSP-hi
+Monocyte-HSPhi
+Myofibroblasts
+Neutrophils
+PLGC2-hi T cells
+Paneth cells
+Pericytes
+Plasma cells-IgA
+Plasma cells-IgG
+Regulatory T cells
+SIP syncytium fibroblast
+Stem-like cells-OLFM4-hi
+Telocyte
+Tissue fibroblast
+Tissue macrophage
+Tissue macrophage-KRT-hi
+Trophocyte
+Trophocyte-TGFBI hi
+Tuft cells
+Venous endothelium

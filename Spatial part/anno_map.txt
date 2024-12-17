@@ -1,0 +1,78 @@
+annotation2	annotation2rev	annotation1	annotation1rev	num	tot	annotation3	final	finalrev
+Activated ADAMDEC1-hi fibroblast	Activated ADAMDEC1-hi fibroblast	Fibroblasts-COL-hi	Fibroblasts-COL-hi	856	10558	Fibroblast	Trophocyte-TGFBI hi	Trophocyte-TGFBI hi
+Activated C1Q-macrophage	Activated C1Q-macrophage	Myeloid cells	Myeloid cells	551	19047	Myeloid	M2-like macrophage-A2M-hi	M2-like macrophage-A2M-hi
+ADAMDEC1-hi fibroblast	ADAMDEC1-hi fibroblast	Fibroblasts-COL-hi	Fibroblasts-COL-hi	3060	10558	Fibroblast	Trophocyte	Trophocyte
+AML-like myeloid	AML-like myeloid	Myeloid cells	Myeloid cells	180	19047	Myeloid	Contaminant-AML-like myeloid	NA
+AREG-AHR-ID2 ILCs	AREG-AHR-ID2 ILCs	T cells-AREG-hi	T cells-AREG-hi	652	1136	T cell	ILCs	ILCs
+B cells	B cells	B cells	B cells	32114	32114	B cell	B cells	B cells
+B-like myeloid	B-like myeloid	Myeloid cells	Myeloid cells	171	19047	Myeloid	Contaminant-B-like myeloid	NA
+C1Q-hi macrophage	C1Q-hi macrophage	Myeloid cells	Myeloid cells	2700	19047	Myeloid	Tissue macrophage	Tissue macrophage
+C1R-hi fibroblast	C1R-hi fibroblast	Fibroblasts-C1R-hi	Fibroblasts-C1R-hi	3378	4846	Fibroblast	Tissue fibroblast	Tissue fibroblast
+CCL3-4-hi cells	CCL3-4-hi cells	Myeloid cells	Myeloid cells	286	19047	Myeloid	Monocyte-CCL3-4-hi	Monocyte-CCL3-4-hi
+CCR7-hi DC	CCR7-hi DC	Myeloid cells	Myeloid cells	592	19047	Myeloid	Dendritic cell - CCR7-hi	Dendritic cell - CCR7-hi
+CCR7hi CD4 T cells	CCR7hi CD4 T cells	T cells-IL7R-hi	T cells-IL7R-hi	15673	47877	T cell	CCR7hi CD4 T cells	CCR7hi CD4 T cells
+CD1c DCs	CD1c DCs	Myeloid cells	Myeloid cells	1557	19047	Myeloid	Dendritic cell - cDC2	Dendritic cell - cDC2
+CD4 T cells	CD4 T cells	T cells-IL7R-hi	T cells-IL7R-hi	10821	47877	T cell	CD4 T cells	CD4 T cells
+CD44-hi mono-derived cell	CD44-hi mono-derived cell	Myeloid cells	Myeloid cells	2417	19047	Myeloid	Monocyte	Monocyte
+CD63+CD81+ macrophage	CD63+CD81+ macrophage	Myeloid cells	Myeloid cells	1711	19047	Myeloid	CD63+CD81+ macrophage	CD63+CD81+ macrophage
+CD69+ CD4 T cells	CD69+ CD4 T cells	T cells-IL7R-hi	T cells-IL7R-hi	772	47877	T cell	CD69+ CD4 T cells	CD69+ CD4 T cells
+CD74-hi endothelium	CD74-hi endothelium	Endothelial cells	Endothelial cells	2901	8244	Endothelial	Arterial endothelium	Arterial endothelium
+CD8 intraepithelial cells	CD8 intraepithelial cells	Activated T cells	Activated T cells	5967	22772	T cell	CD8 intraepithelial cells	CD8 intraepithelial cells
+Clec9A-hi macrophage	Clec9A-hi macrophage	Myeloid cells	Myeloid cells	602	19047	Myeloid	Dendritic cell - cDC1	Dendritic cell - cDC1
+COL1A1-hi fibroblast	COL1A1-hi fibroblast	Fibroblasts-C1R-hi	Fibroblasts-C1R-hi	827	4846	Fibroblast	Collagen-hi tissue fibroblast	Collagen-hi tissue fibroblast
+Colonocytes-CAECAM-hi	Colonocytes-CAECAM-hi	Colonocytes-CAECAM-hi	Colonocytes-CAECAM-hi	16020	16020	Epithelial	Colonocytes-CAECAM-hi	Colonocytes-CAECAM-hi
+Colonocytes-LGALS4-hi	Colonocytes-LGALS4-hi	Colonocytes-LGALS4-hi	Colonocytes-LGALS4-hi	22712	22712	Epithelial	Colonocytes-LGALS4-hi	Colonocytes-LGALS4-hi
+Contaminant-Bcell	NA	Fibroblasts-COL-hi	NA	1419	10558	NA	Contaminant-Bcell	NA
+Contaminant-doublets	NA	Lymphatic endothelium	NA	100	1098	NA	Contaminant-doublets	NA
+Contaminant-epithelial	NA	Endothelial cells	NA	115	8244	NA	Contaminant-epithelial	NA
+CXCL1-hi fibroblasts	CXCL1-hi fibroblasts	Fibroblasts-COL-hi	Fibroblasts-COL-hi	1544	10558	Fibroblast	Inflammatory fibroblasts	Inflammatory fibroblasts
+CXCL14-hi ADAMDEC1-neg fibroblasts	CXCL14-hi ADAMDEC1-neg fibroblasts	Fibroblasts-COL-hi	Fibroblasts-COL-hi	1211	10558	Fibroblast	Telocyte	Telocyte
+CXCL14-hi cells	CXCL14-hi cells	Myeloid cells	Myeloid cells	86	19047	Myeloid	Contaminant-CXCL14-hi cells	NA
+CXCR6-hi CD4 T cells	CXCR6-hi CD4 T cells	T cells-IL7R-hi	T cells-IL7R-hi	2192	47877	T cell	CXCR6-hi CD4 T cells	CXCR6-hi CD4 T cells
+Cycling B cells	Cycling B cells	Cycling B cells	Cycling B cells	5708	5708	B cell	Cycling B cells	Cycling B cells
+Cycling endothelium	Cycling endothelium	Endothelial cells	Endothelial cells	31	8244	Endothelial	Cycling endothelium	Cycling endothelium
+Cycling myeloid	Cycling myeloid	Myeloid cells	Myeloid cells	256	19047	Myeloid	Cycling myeloid	Cycling myeloid
+Cycling T cells	Cycling T cells	Cycling T cells	Cycling T cells	875	1012	T cell	Cycling T cells	Cycling T cells
+Enteric glia	Enteric glia	Fibroblasts-COL-hi	Glia	414	10558	Glia	Enteric glia	Enteric glia
+Enterocyte-ANPEP-hi	Enterocyte-ANPEP-hi	Enterocyte-ANPEP-hi	Enterocyte-ANPEP-hi	57138	57138	Epithelial	Enterocyte-ANPEP-hi	Enterocyte-ANPEP-hi
+Enterocyte-FABP-hi	Enterocyte-FABP-hi	Enterocyte-FABP-hi	Enterocyte-FABP-hi	22820	22820	Epithelial	Enterocyte-FABP-hi	Enterocyte-FABP-hi
+Enterocyte-mito-hi	Enterocyte-mito-hi	Enterocyte-mito-hi	Enterocyte-mito-hi	32393	32393	Epithelial	Enterocyte-mito-hi	Enterocyte-mito-hi
+Enterocytes-COX-hi	Enterocytes-COX-hi	Enterocytes-COX-hi	Enterocyte-other	95	95	Epithelial	Enterocytes-COX-hi	Enterocytes-COX-hi
+Enterocytes-FTL-hi	Enterocytes-FTL-hi	Enterocytes-FTL-hi	Enterocyte-other	43	43	Epithelial	Enterocytes-FTL-hi	Enterocytes-FTL-hi
+Enterocytes-FTL-hi2	Enterocytes-FTL-hi2	Enterocytes-FTL-hi2	Enterocyte-other	8	8	Epithelial	Enterocytes-FTL-hi2	Enterocytes-FTL-hi2
+Enterocytes-MT-hi	Enterocytes-MT-hi	Enterocytes-MT-hi	Enterocyte-other	890	890	Epithelial	Enterocytes-MT-hi	Enterocytes-MT-hi
+Enteroendocrine cells	Enteroendocrine cells	Enteroendocrine cells	Enteroendocrine cells	1330	1330	Epithelial	Enteroendocrine cells	Enteroendocrine cells
+Follicular helper T cells	Follicular helper T cells	T cells-IL7R-hi	T cells-IL7R-hi	2879	47877	T cell	Follicular helper T cells	Follicular helper T cells
+FPR1-hi cells	FPR1-hi cells	Myeloid cells	Myeloid cells	1251	19047	Myeloid	Monocyte-FPR1-hi	Monocyte-FPR1-hi
+Goblet cells	Goblet cells	Goblet cells	Goblet cells	19036	19036	Epithelial	Goblet cells	Goblet cells
+Goblet cells-DEF-hi	Goblet cells-DEF-hi	Goblet cells-DEF-hi	Goblet cells	174	174	Epithelial	Goblet cells-DEF-hi	Goblet cells-DEF-hi
+GZMB-hi B cell	GZMB-hi B cell	T cells-AREG-hi	B cells	426	1136	B cell	GZMB-hi B cell	GZMB-hi B cell
+GZMK-hi CD8 T cells	GZMK-hi CD8 T cells	Activated T cells	Activated T cells	5493	22772	T cell	GZMK-hi CD8 T cells	GZMK-hi CD8 T cells
+HSP-hi monocyte	HSP-hi monocyte	Myeloid cells	Myeloid cells	463	19047	Myeloid	Monocyte-HSPhi	Monocyte-HSPhi
+HSP-hi T cells	HSP-hi T cells	T cells-IL7R-hi	T cells-IL7R-hi	2840	47877	T cell	Contaminant - HSP-hi T cells	NA
+IL1B-hi cells	IL1B-hi cells	Myeloid cells	Myeloid cells	810	19047	Myeloid	Monocyte-HSP-hi	Monocyte-HSP-hi
+Intraepithelial Tgd	Intraepithelial Tgd	Activated T cells	Activated T cells	2568	22772	T cell	Intraepithelial Tgd	Intraepithelial Tgd
+KRT-hi cells	KRT-hi cells	Myeloid cells	Myeloid cells	297	19047	Myeloid	Tissue macrophage-KRT-hi	Tissue macrophage-KRT-hi
+LP associated Tgd	LP associated Tgd	Activated T cells	Activated T cells	2974	22772	T cell	LP-associated NK-Tgd	LP-associated NK-Tgd
+Lymphatic endothelium	Lymphatic endothelium	Lymphatic endothelium	Lymphatic endothelium	959	1098	Endothelial	Lymphatic endothelium	Lymphatic endothelium
+Lyve1 macrophage	Lyve1 macrophage	Myeloid cells	Myeloid cells	691	19047	Myeloid	Lyve1 macrophage	Lyve1 macrophage
+M2-like macrophage	M2-like macrophage	Myeloid cells	Myeloid cells	2030	19047	Myeloid	M2-like macrophage	M2-like macrophage
+Mast cells	Mast cells	Mast cells	Mast cells	4306	4306	Mast	Mast cells	Mast cells
+Mito-hi endothelium	Mito-hi endothelium	Endothelial cells	Endothelial cells	1084	8244	Endothelial	Mito-hi endothelium	Mito-hi endothelium
+Mito-HSP-hi cells	Mito-HSP-hi cells	T cells-IL7R-hi	T cells-IL7R-hi	316	47877	T cell	Contaminant - Mito-HSP-hi cells	NA
+MYH11-hi pericytes	MYH11-hi pericytes	Pericyte	Pericyte	746	2728	Pericyte	Contractile pericytes	Contractile pericytes
+Myofibroblasts	Myofibroblasts	Fibroblasts-COL-hi	Fibroblasts-COL-hi	1724	10558	Fibroblast	Myofibroblasts	Myofibroblasts
+Neutrophils	Neutrophils	Neutrophils	Neutrophils	4037	4037	Neutrophil	Neutrophils	Neutrophils
+Neutrophils	Macrophage-like neutrophils	Myeloid cells	Myeloid cells	2189	19047	Myeloid	Macrophage-like neutrophils	Macrophage-like neutrophils
+Paneth cells	Paneth cells	Paneth cells	Paneth cells	3748	3748	Epithelial	Paneth cells	Paneth cells
+PECAM-hi endothelium	PECAM-hi endothelium	Endothelial cells	Endothelial cells	3661	8244	Endothelial	Venous endothelium	Venous endothelium
+Pericytes	Pericytes	Pericyte	Pericyte	1838	2728	Pericyte	Pericytes	Pericytes
+Plasma cells-IgA	Plasma cells-IgA	Plasma cells-IgA	Plasma cells-IgA	26612	26612	B cell	Plasma cells-IgA	Plasma cells-IgA
+Plasma cells-IgG	Plasma cells-IgG	Plasma cells-IgG	Plasma cells-IgG	9150	9150	B cell	Plasma cells-IgG	Plasma cells-IgG
+PLGC2-hi T cells	PLGC2-hi T cells	T cells-IL7R-hi	T cells-IL7R-hi	2443	47877	T cell	PLGC2-hi T cells	PLGC2-hi T cells
+Regulatory T cells	Regulatory T cells	T cells-IL7R-hi	T cells-IL7R-hi	6473	47877	T cell	Regulatory T cells	Regulatory T cells
+Ribo-hi subset	NA	Ribo-hi subset	NA	6013	6013	NA	Ribo-hi subset	NA
+Schwann-cell	Schwann-cell	Fibroblasts-C1R-hi	Fibroblasts-C1R-hi	318	4846	Fibroblast	SIP syncytium fibroblast	SIP syncytium fibroblast
+Stem-like cells-OLFM4-hi	Stem-like cells-OLFM4-hi	Stem-like cells-OLFM4-hi	Stem-like cells-OLFM4-hi	24472	24472	Epithelial	Stem-like cells-OLFM4-hi	Stem-like cells-OLFM4-hi
+T-cell like myeloid	T-cell like myeloid	Myeloid cells	Myeloid cells	207	19047	Myeloid	Contaminant-T-cell like myeloid	NA
+Tuft cells	Tuft cells	Tuft cells	Tuft cells	1623	1623	Epithelial	Tuft cells	Tuft cells
