@@ -2,7 +2,6 @@
 # Differential expression analysis
 ############################################################
 
-
 library(Seurat)
 library(ggplot2)
 library(cowplot)
