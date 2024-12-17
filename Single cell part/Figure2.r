@@ -42,7 +42,6 @@ epi.tests <- cell_proportions_tests(epi.freq, "imu")
 fib.tests <- cell_proportions_tests(fib.freq, "epi")
 imm.tests <- cell_proportions_tests(imm.freq, "epi")
 
-
 ## Epithelial compartment
 tmp <- epi.freq[rownames(epi.tests$pct),colnames(epi.tests$pct)]
 p3 <- matrix_barplot(as.matrix(epi.tests$pct), tmp, group_by=epi.tests$cov$condition, pvals=epi.tests$qvals[3:4,], 
@@ -57,7 +56,6 @@ pdf("Cell_composition_barplot_epi_only_sig6.pdf", 4.8, 4)
 print(p3)
 dev.off()
 
-
 ## Stromal compartment
 tmp <- fib.freq[rownames(fib.tests$pct),colnames(fib.tests$pct)]
 p2 <- matrix_barplot(as.matrix(fib.tests$pct), tmp, group_by=fib.tests$cov$condition, pvals=fib.tests$qvals[3:4,], 
@@ -71,7 +69,6 @@ p2 <- matrix_barplot(as.matrix(fib.tests$pct), tmp, group_by=fib.tests$cov$condi
 pdf("Cell_composition_barplot_str_only_sig6.pdf", 5.9, 4)
 print(p2)
 dev.off()
-
 
 ## Immune compartment
 tmp <- imm.freq[rownames(imm.tests$pct),colnames(imm.tests$pct)]
